@@ -1,0 +1,658 @@
+/* Inicio Modificadores Universales -------------------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Fin Modificadores Universales -------------------------------------------------------------------- */
+
+/* Inicio Estilos Scroll Bar -------------------------------------------------------------------- */
+
+
+::-webkit-scrollbar {
+    width: 9px;
+
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgb(134, 134, 134);
+    border-radius: 4px;
+
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background:  rgb(75, 75, 75);
+}
+
+/* Fin Estilos Scroll Bar -------------------------------------------------------------------- */
+
+/* Inicio Header -------------------------------------------------------------------- */
+
+.usuario li {
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+header {
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+    font-size: 13px;
+    background-color: black;
+    border-bottom: 1px solid rgb(75, 75, 75);
+}
+
+#sesiones {
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 25px;    
+    height: 25px;
+    filter: invert(100%);
+}
+
+#sesiones:hover {
+    transform: scale(1.2);
+}
+
+.usuario {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5px;
+    padding: 15px 0px; 
+    
+}
+
+.botones-pagina li {
+    display: inline-block; 
+    
+}
+
+
+.bot {
+    display: flex;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.carrito {
+    display: flex;
+    padding: 5px;
+    margin: 20px;
+    filter: invert(100%);
+}
+
+.carrito:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bot-home {
+    display: flex;
+}
+
+.bot:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+
+.bot-home {
+    margin: 20px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.bot-home:hover{
+    transform: scale(1.1);
+    border-bottom: 2px solid white;
+}
+
+
+
+.boton:hover{
+    transform: scale(1.1);
+    border-radius: 2px;
+    border-bottom: 2px solid white;
+}
+
+.sesion {
+    display: flex;
+}
+.sesion:hover {
+    transform: scale(1.1);
+}
+
+.buscador {
+    position: relative;
+}
+
+.buscador input {
+    width: 320px;
+    padding: 7px;
+    padding-right: 30px;
+    border-radius: 9px 0 0 9px;
+    border: 0;
+    outline: none;
+    background-color: black;
+    border: 1px solid white;
+    font-size: 1rem;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.buscador button {
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    border: 1px solid white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.buscador button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.usuario-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 1px;
+    padding-bottom: 10px;
+}
+
+.logo img {
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 200px;
+    filter: invert(100%);
+
+}
+
+.logo img:hover {
+    transform: scale(1.2);
+}
+
+/* Fin Header  --------------------------------------------------------------------*/
+
+/* Inicio Section 1  --------------------------------------------------------------------*/
+
+#ropa {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+
+}
+
+#ropa img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: .7s ease;
+}
+
+#ropa img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(103%);
+}
+
+/* Fin Section 1  --------------------------------------------------------------------*/
+
+/* Inicio Section 2 -------------------------------------------------------------------- */
+
+.conteiner-section2 {
+    background-color: black;
+    border-top: 1px solid rgb(75, 75, 75);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.conteiner-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+
+.container-titulo {
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.titulo-uno{
+    padding: 80px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.item {
+    border-radius: 10px;
+}
+
+.item:hover {
+    box-shadow: 0 0 15px rgb(150, 149, 149);
+}
+
+.item img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    opacity: .8;
+    border-radius: 12px 12px 12px 12px;
+    transition: all .7s;
+}
+
+.item figure{
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.item:hover img{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: small;
+}
+
+.price{
+    font-weight: 100;
+    font-size: small;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: rgb(218, 216, 216);
+    color: black;
+    font-weight: bold;
+    padding: 15px 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.info-product button:hover {
+    opacity: .6;
+}
+/* Fin Section 2 -------------------------------------------------------------------- */
+
+/* Inicio Section 3 -------------------------------------------------------------------- */
+
+.conteiner-secciontres {
+    padding-top: 100px ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 15px;
+    background-color: black;
+    
+}
+
+.recuadro {
+    border-radius: 10px;
+    
+}
+
+
+.recuadro img{
+    border-radius: 18px 18px 0 0;
+    transition: all .5s;
+    filter: invert(100%);
+}
+
+.recuadro figure{
+    overflow: hidden;
+}
+
+.recuadro:hover img{
+    transform: scale(1.2);
+}
+
+.info-recuadro{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Fin Section 3 -------------------------------------------------------------------- */
+
+/* Inicio Section 4 -------------------------------------------------------------------- */
+
+.sect-cuatro  {
+    padding-top: 2%;
+    padding-left: -20% ;
+    padding-right: -20%;
+    padding-bottom: 2%;
+    background-color: black;
+}
+
+
+.redes-sociales {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 2px;
+}
+
+.redes li {
+    margin-top: 90px;
+    display: inline-block;
+}
+
+.imagen-redes {
+    width: 45px;
+    padding: 10px 10px;
+    transition: all .5s;
+    filter: invert(100%);
+}
+
+.imagen-redes:hover {
+    transform: scale(1.2);
+}
+
+/* Fin Section 4 -------------------------------------------------------------------- */
+
+/* Inicio Footer -------------------------------------------------------------------- */
+
+footer {
+    background-color: rgb(0, 0, 0);
+    border-top: 1px solid rgb(75, 75, 75);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer a {
+    font-size: 10px;
+}
+
+.principal__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mails {
+    padding-top: 30px;
+}
+
+.mails p {
+    padding-bottom: 15px;
+}
+
+.section-footer-uno {
+    padding-top: 30px;
+}
+
+.boton_footer {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding-bottom: 20px;
+    transition: all .5s;
+}
+
+
+.boton_footer:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contactos {
+    padding-top: 30px;
+}
+
+
+.imagenes-contacto {
+    width: 12px;
+    filter: invert(100%);
+}
+
+
+.section-footer-dos {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.contactos__p {
+    font-size: 12px;
+}
+
+.metodos-pago {
+    display: flex;
+    justify-content: center;
+}
+
+.metodos-pagos img {
+    padding: 2px;
+    width: 45px;
+    border-radius: 7px;
+}
+
+.sections-footer-tres {
+    display: flex;
+    justify-content: center;
+}
+
+.div2_section_tres {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px ;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style: none;
+    font-size: 13px;
+}
+
+.div2_section_tres p {
+    margin-bottom: 0rem;
+}
+
+.sections-footer-tres {
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+.sections-footer-tres a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15;
+    font-size: 13px;
+}
+
+/* Fin Footer -------------------------------------------------------------------- */
+
+/* Inicio IniciarSesion -------------------------------------------------------------------- */
+#IniciarSesion {
+    background: black;
+}
+
+.contenedor__form {
+    width: 360px;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: all .5s;
+    
+}
+
+.contenedor__form:hover {
+    box-shadow: 0 0 15px rgb(150, 149, 149);
+}
+
+.matiasboludo {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form__sesion {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.form__sesion i {
+    padding-right: 6px;
+}
+
+.form__sesion2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.form__sesion2 i {
+    padding-right: 6px;
+}
+
+
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    background: white;
+}
+
+
+.hola__soyunform {
+    background-color: black;
+}
+
+.recuadro__email {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.recuadro__pass {
+    width: 100%;
+}
+
+.explicacion{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.explicacion2 {
+    color: white;
+    font-size: 11px;
+    padding-top: 3px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.cuenta {
+    color: white;
+    font-size: 11px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.cuenta__nueva {
+    color: white;
+    text-decoration: none;
+    padding-left: 2px;
+}
+
+.cuenta__nueva:hover {
+    font-weight: bold;
+}
+
+.explicacion2:hover {
+    font-weight: bold;
+}
+
+.acomodar {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.simesale {
+    display: flex;
+    justify-content: center;
+}
+
+.iconito {
+    width: 20px;
+    padding-top: 3px;
+}
+
+.form__sesion input {
+    border-radius: 9px 0 0 9px;
+    border: 0;
+    outline: none;
+    background-color: black;
+    border: 1px solid white;
+    font-size: 1rem;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#botonchoto {
+    display: flex;
+    justify-content: center;
+}
+
+#botonchoto button {
+    width: 300px;
+}
+.rober {
+    border-radius: 10px;
+    border: #fff;
+}
+
+/* Fin IniciarSesion -------------------------------------------------------------------- */
+
+
+
+
+
+
