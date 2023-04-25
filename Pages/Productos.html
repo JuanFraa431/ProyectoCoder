@@ -20,53 +20,48 @@
     
     <!-- Inicio Header -->
 
-    <header>
-
-        <nav class="usuario">
-            <ul class="usuario-nav">
-                <li>
-                    <a href="../Pages/Unete.html" class="bot">UNETE</a>
-                </li>
-                <li>
-                    <a href="../Pages/Locales.html" class="bot">LOCALES</a>
-                </li>
-                <li>
-                    <a href="../Pages/IniciarSesion.html" class="bot">INICIAR SESION</a>
-                </li>
-                <li>
-                    <img src="../Imagenes/imagen.sesion.png" alt="imagen sesion"  id="sesiones">
-                </li>
-            </ul>
-        </nav>
-
-        <nav class="botones-pagina">
-            <ul class="usuario-nav">
-                <li>
-                    <a href="../index.html" class="bot-home">HOME</a>
-                </li>
-                <li>
-                    <a href="../Pages/Productos.html" class="bot">PRODUCTOS</a>
-                </li>
-                <li>
-                    <a href="../Pages/Nosotros.html" class="bot">NOSOTROS</a>
-                </li>
-                <li class="logo">
-                    <a href="../index.html"><img src="../Imagenes/Logo.png" alt="Logo de la empresa" id="Logo"></a>
-                </li>
-                <li>
-                    <div class="buscador">
-                        <input type="text" placeholder="Buscar...">
-                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    <header class="header__unete">
+        <nav class="navbar navbar-dark fixed-top">
+            <div class="container-fluid logo">
+                <a class="navbar-brand" href="../index.html"><img src="../Imagenes/Logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                </li>
-                <li class="carrito">
-                    <img src="../Imagenes/Carrito.png" alt="" width="20" height="20">
-                </li>
-                
-            </ul>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../Pages/Productos.html">PRODUCTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../Pages/Nosotros.html">NOSOTROS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../Pages/Unete.html">UNETE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../Pages/Locales.html">LOCALES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../Pages/">INICIAR SESION</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </nav>
-    </header>
-
+</header>
     <!-- Fin Header -->
 
     <section>
