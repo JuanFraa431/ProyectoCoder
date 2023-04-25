@@ -530,7 +530,7 @@ footer a {
 .form__sesion {
     display: flex;
     justify-content: center;
-    padding-top: 35px;
+    padding-top: 20px;
 }
 
 .form__sesion i {
@@ -553,7 +553,7 @@ footer a {
     height: 2px;
     max-width: 200px;
     padding: 0;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 0px auto;
     background: white;
 }
 
@@ -563,12 +563,17 @@ footer a {
 }
 
 .recuadro__email {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .recuadro__pass {
+    display: flex;
+    justify-content: center;
     width: 100%;
+    
 }
 
 .explicacion{
@@ -651,8 +656,16 @@ footer a {
 
 /* Fin IniciarSesion -------------------------------------------------------------------- */
 
+/* Inicio Unete -------------------------------------------------------------------- */
+
+.form__sesion__texto {
+    font-size: 10px;
+}
+
+.robertomanuel {
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
 
 
-
-
-
+/* Fin Unete -------------------------------------------------------------------- */
