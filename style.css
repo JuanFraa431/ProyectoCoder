@@ -151,7 +151,7 @@ header {
     border: 0;
     outline: none;
     background-color: black;
-    border: 1px solid white;
+    border: 1px solid rgb(75, 75, 75);
     font-size: 1rem;
     border-radius: 5px 5px 5px 5px;
 }
@@ -160,7 +160,7 @@ header {
     background-color: black;
     padding: 10px;
     position: absolute;
-    border: 1px solid white;
+    border: 1px solid rgb(75, 75, 75);
     top: 0;
     bottom: 0;
     right: 0;
@@ -419,6 +419,10 @@ footer a {
 
 .mails p {
     padding-bottom: 15px;
+}
+
+.roberto {
+    color: rgb(75, 75, 75);
 }
 
 .section-footer-uno {
@@ -807,3 +811,34 @@ footer a {
 
 }
 
+.section__productos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(75, 75, 75);
+}
+
+.container__section {
+    padding-top: 50px;
+}
+
+.container__filtro {
+    display: flex;
+    justify-content: center;
+}
+
+.filtro {
+    padding-top: 20px;
+    width: 60%;
+}
+
+.selector__paginas {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.icono__filtro {
+    padding-right: 8px;
+}
