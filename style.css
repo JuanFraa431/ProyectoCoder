@@ -144,7 +144,7 @@ header {
 }
 
 .buscador input {
-    width: 320px;
+    width: 90%;
     padding: 7px;
     padding-right: 30px;
     border-radius: 9px 0 0 9px;
@@ -157,6 +157,7 @@ header {
 }
 
 .buscador button {
+    width: 15%;
     background-color: black;
     padding: 10px;
     position: absolute;
@@ -298,12 +299,12 @@ header {
     padding: 15px 30px;
     display: flex;
     flex-direction: column;
-    font-size: small;
+    font-size: 12px;
 }
 
 .price{
     font-weight: bold;
-    font-size: small;
+    font-size: 14px;
     
 }
 
@@ -750,13 +751,14 @@ footer a {
         display: none;
     }
     .carru__mobile {
+        width: 100%;
         display: flex;
         justify-content: center;
         background-color: black;
     }
 
     .recuadro__mobile {
-        width: 400px;
+        width: auto;
         height: 300px;
         padding-top: 40px;
         display: flex;
@@ -822,15 +824,15 @@ footer a {
     }
 
     .div2_section_tres p {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .div-section-tres span {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .div-section-tres a {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .carrutop__mobile {
@@ -858,11 +860,12 @@ footer a {
 
     .mapa {
         text-align: center;
-        margin-top: 80px;
+        margin-top: 20px;
     }
     .mapa iframe {
-        width: 70%;
-        height: 40rem;
+        width: 90%;
+        height: 30rem;
+        margin-bottom: 20px;
     }
     
 
