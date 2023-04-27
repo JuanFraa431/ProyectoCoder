@@ -811,12 +811,7 @@ footer a {
 
 }
 
-.section__productos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid rgb(75, 75, 75);
-}
+/* Inicio Productos -------------------------------------------------------------------- */
 
 .container__section {
     padding-top: 50px;
@@ -842,3 +837,36 @@ footer a {
 .icono__filtro {
     padding-right: 8px;
 }
+
+/* Fin Productos -------------------------------------------------------------------- */
+
+/* Inicio Nosotros -------------------------------------------------------------------- */
+
+.carru__nosotros {
+    width: 30%;
+}
+
+.carru__nosotros img {
+    height: auto;
+}
+
+.container__carru__nosotros {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container__texto_nosotros {
+    display: flex;
+    justify-content: center;
+}
+.texto_nosotros {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.texto_nosotros img {
+    width: 100%;
+}
+
