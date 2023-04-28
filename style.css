@@ -435,7 +435,7 @@ footer a {
     padding-bottom: 15px;
 }
 
-.roberto {
+.estilobusqueda {
     color: rgb(75, 75, 75);
 }
 
@@ -543,7 +543,7 @@ footer a {
     box-shadow: 0 0 15px rgb(150, 149, 149);
 }
 
-.matiasboludo {
+.container__form__principal {
     width: 100%;
     padding-top: 50px;
     display: flex;
@@ -665,15 +665,15 @@ footer a {
     border-radius: 5px 5px 5px 5px;
 }
 
-#botonchoto {
+#boton__correccion {
     display: flex;
     justify-content: center;
 }
 
-#botonchoto button {
+#boton__correccion button {
     width: 300px;
 }
-.rober {
+.estilobusqueda {
     border-radius: 10px;
     border: #fff;
 }
@@ -686,10 +686,6 @@ footer a {
     font-size: 10px;
 }
 
-.robertomanuel {
-    margin-bottom: 0px;
-    padding-top: 0px;
-}
 
 
 .header__unete {
@@ -954,10 +950,3 @@ footer a {
 
 /* Fin Nosotros -------------------------------------------------------------------- */
 
-/* Inicio Nosotros -------------------------------------------------------------------- */
-
-
-
-
-
-/* Fin Nosotros -------------------------------------------------------------------- */
